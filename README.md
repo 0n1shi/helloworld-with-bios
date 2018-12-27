@@ -33,7 +33,7 @@ $ qemu-system-x86_64 print
 
 The last two bytes in the boot sector is `0x55` and `0xaa`.
 
-it must be put like below
+It must be put like below
 
 ```
 db 0x55
