@@ -25,7 +25,7 @@ msg_len: equ $-msg
 
 ; $   :address here
 ; $$  :address which this section start
-times 510-($-$$) db 0
+times 510-($-$$) db 0 ; "times <n> <cmd>" execute <cmd> <n> times
 
 ; magic number for boot sector
 db 0x55
